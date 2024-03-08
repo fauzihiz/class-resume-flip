@@ -27,6 +27,11 @@ body {
     background-position: center; /* Centers the background image */
   }
 
+.swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
 #slide-01, #end-mark, #end-slide, .credit {
     text-align: center;
 }

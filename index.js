@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // If you need pagination
       pagination: {
         el: '.swiper-pagination',
+        type: 'fraction',
       },
       
     });
