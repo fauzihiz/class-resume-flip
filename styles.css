@@ -3,14 +3,9 @@ body {
     justify-content: center;
 }
 
-/* Add blur effect to non-focused containers */
-.swiper-slide:not(.swiper-slide-active) {
-    filter: blur(5px); /* Adjust the blur amount as needed */
-  }
-
 .swiper-container {
     width: 350px;
-    height: 550px;
+    height: 575px;
     position: relative;
     overflow: hidden;
     margin-left: auto;
@@ -42,7 +37,6 @@ body {
 }
 #ig_icon {
   
-  vertical-align: sub;
 }
 #ig_text {
   /* Your text styles */
