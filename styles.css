@@ -9,8 +9,8 @@ body {
   }
 
 .swiper-container {
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 550px;
     position: relative;
     overflow: hidden;
     margin-left: auto;
@@ -18,14 +18,26 @@ body {
 }
 
 .swiper-slide {
+    width: 100%;
+    height: auto;
     text-align: left;
     cursor: pointer;
-    width: auto;
-    height: auto;
-    position: absolute;
     line-height: 1.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    background-image: url('bg.jpg');
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
   }
 
-#slide-01 {
+#slide-01, #end-mark, #end-slide, .credit {
     text-align: center;
+}
+
+.credit img {
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
 }
