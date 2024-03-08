@@ -36,8 +36,14 @@ body {
     text-align: center;
 }
 
-.credit img {
-  width: 20px;
-  height: 20px;
+#ig_name{
+  display: inline-flex;
+  align-items: center; /* Align items vertically in the center */
+}
+#ig_icon {
+  
   vertical-align: sub;
+}
+#ig_text {
+  /* Your text styles */
 }
