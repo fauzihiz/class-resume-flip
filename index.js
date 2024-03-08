@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
       loop: false,
       effect: 'slide',
       speed: 600,  
+      spaceBetween: 20,
       // If you need pagination
       pagination: {
         el: '.swiper-pagination',
